@@ -299,3 +299,62 @@ header #banner {
 .early-access-content .p2 {
   padding-bottom: 80px;
 }
+
+footer {
+  background-color: #001931;
+  width: 100%;
+  height: 348px;
+}
+
+footer .footer-content {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.footer-content .sec1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 120px;
+  margin-bottom: 80px;
+}
+
+.footer-content .sec1 .social h4 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 16px;
+  color: #fff;
+}
+.footer-content .sec1 .social ul {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer-content .sec1 .social ul li {
+  list-style-type: none;
+}
+.footer-content .sec1 .social ul li a {
+  text-decoration: none;
+}
+.footer-content .sec2 hr {
+  opacity: 0.2;
+  margin-bottom: 30px;
+}
+.footer-content .sec2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fafafa;
+  text-align: center;
+}
+
+button {
+  transition: transform 0.25s ease-out, background-color 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #3b7d57;
+}
